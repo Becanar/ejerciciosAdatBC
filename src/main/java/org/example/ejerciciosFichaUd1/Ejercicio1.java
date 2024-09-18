@@ -26,11 +26,11 @@ public class Ejercicio1 {
     }
     public static void main(String[] args) {
         String dir="src/main/archivos/Departamentos.dat";
-        ArrayList<Departamento> lstDep=new ArrayList<Departamento>();
+        /*ArrayList<Departamento> lstDep=new ArrayList<Departamento>();
         lstDep.add(new Departamento(1,"Contabilidad","Agurain"));
         lstDep.add(new Departamento(2,"Informatica","Vitoria"));
         lstDep.add(new Departamento(3,"Administracion","Agurain"));
-        guardarDepartamentos(dir,lstDep);
+        guardarDepartamentos(dir,lstDep);*/
         verDepartamentos(dir);
     }
 
